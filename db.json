@@ -23,7 +23,7 @@
       {
           "id": 2,
           "title": "Apple iPhone 12 (64GB) - Purple",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "description": "Ceramic Shield front Textured matt glass back and stainless steel design",
           "price":"53,999 ",
           "offer":"M.R.P: ₹59,900 (10% off)",
           "discountPercentage": 17.94,
@@ -42,7 +42,7 @@
       {
           "id": 3,
           "title": "Apple iPhone 14 (128 GB) - Yellow",
-          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "description": "ProMotion technology with adaptive refresh rates up to 120Hz",
           "price": "67,499 ",
           "offer":"M.R.P: ₹79,900 (16% off)",
           "discountPercentage": 15.46,
@@ -58,7 +58,7 @@
       {
           "id": 4,
           "title": "Apple iPhone 14 Pro Max (256 GB) - Space Black",
-          "description": "OPPO F19 is officially announced on April 2021.",
+          "description": "The iPhone 14 Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle.",
           "price": "1,43,990 ",
           "offer":"M.R.P: ₹1,49,900 (4% off)",
           "discountPercentage": "Flat INR 3000 Off on HDFC BankCardsFlat INR 3000 Off on HDFC BankCards",
@@ -78,7 +78,7 @@
       {
           "id": 5,
           "title": "Apple iPhone 14 (128 GB) - (Product) RED",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "description": "Dual optical image stabilisation for video (Main and Telephoto)3x optical zoom in",
           "price": "67,499",
           "offer":" M.R.P: ₹79,900 (16% off)",
           "discountPercentage": 10.58,
@@ -96,7 +96,7 @@
       {
         "id": 6,
         "title": "Apple iPhone 12 (64GB) - Purple",
-        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "description": "Dual-LED dual-tone flash, HDR (photo/panorama)",
         "price": "53,999",
         "offer":" M.R.P: ₹59,900 (16% off)",
         "discountPercentage": 10.58,
@@ -114,7 +114,7 @@
     {
         "id": 7,
         "title": "Apple iPhone 14 Pro Max (1 TB) - Silver",
-        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "description": "Face ID, accelerometer, gyro, proximity, compass, barometer Ultra Wideband (UWB) support",
         "price": "1,72,499",
         "offer":" M.R.P: ₹1,89,900 (16% off)",
         "discountPercentage": 10.58,
@@ -131,7 +131,7 @@
     },{
         "id": 8,
         "title": "Apple iPhone SE (128 GB) - Starlight (3rd Generation)",
-        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "description": " Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension.",
         "price": "67,499",
         "offer":" M.R.P: ₹79,900 (16% off)",
         "discountPercentage": 10.58,
@@ -148,7 +148,7 @@
     },{
         "id": 9,
         "title": "Apple iPhone 12 (64GB) - Blue",
-        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "description": "A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience.",
         "price": "53,999",
         "offer":" M.R.P: ₹59,900 (16% off)",
         "discountPercentage": 10.58,
@@ -165,7 +165,7 @@
     },{
         "id": 10,
         "title": "Apple iPhone 14 Plus (256 GB) - Midnight",
-        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "description": "iPhone 14. boasts an advanced dual-camera system that allows you to click mesmerisin pictures with immaculate clarity",
         "price": "92,499",
         "offer":" M.R.P: ₹99,900 (16% off)",
         "discountPercentage": 10.58,
@@ -182,7 +182,7 @@
     },{
         "id": 11,
         "title": "Apple iPhone 14 Pro (512 GB) - Space Black",
-        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "description": "A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience.",
         "price": "1,67,499",
         "offer":" M.R.P: ₹79,900 (16% off)",
         "discountPercentage": 10.58,
@@ -199,7 +199,7 @@
     },{
         "id": 12,
         "title": "Apple iPhone 14 (128 GB) - (Product) RED",
-        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "description": "iPhone 14. boasts an advanced dual-camera system that allows you to click mesmerisin pictures with immaculate clarity",
         "price": "67,499",
         "offer":" M.R.P: ₹79,900 (16% off)",
         "discountPercentage": 10.58,
