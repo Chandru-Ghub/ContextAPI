@@ -20,7 +20,7 @@ const Home = () => {
 // },[])
 
   useEffect(()=>{
-        fetch('http://localhost:3000/products').then((a)=>a.json()).then((result)=>setList(result));
+        fetch(`/mocks.json`).then((a)=>a.json()).then((result)=>setList(result.products));
   },[])
   const[list,setList] = useState([])
 

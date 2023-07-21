@@ -16,8 +16,8 @@ const Cart = () => {
   return (
     <div className='cartContainer'>
       <div className='cartnav'>
-      <h2 className='cartTitle'>MY I CART</h2>
-      {cart.length?(<h3 className='totalPrice'>Total Price: {count+pro} </h3>):null}
+      <h2 className='cartTitle' style={{fontSize:'30px',color:'black'}}>icart</h2>
+      {cart.length?(<h3 className='totalPrice' style={{color:'blue'}}>Total Price: ₹{count+pro}🪙 </h3>):null}
       
       {cart.length?(
       <button className='removeAll' onClick={()=>{

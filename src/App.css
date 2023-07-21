@@ -55,6 +55,10 @@ img{
   width: 180px;
  
 }
+.cartContainer{
+  /* background-color: red; */
+  height:auto;
+}
 /* .empty{
   background-color: rgb(228, 42, 42);
   height: 80vh;

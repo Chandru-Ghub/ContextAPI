@@ -31,7 +31,7 @@ const Cartproducts = ({prod,pro,setpro}) => {
                 <ul>
                 <li className='title'>{prod.title}</li>
                 <li className='desc'>{prod.description}</li>
-                <li className={prod.stock>50?'stocksG':'stocksR'}>Stocks:{prod.stock}</li>
+                <li className={prod.stock>50?'stocksG':'stocksR'}>Stock:{prod.stock}</li>
                 <li className='price'>₹{prod.price}</li>
                 </ul>
                 <div className="btnctrl">
