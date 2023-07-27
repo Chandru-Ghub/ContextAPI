@@ -5,15 +5,13 @@ const Cartproducts = ({prod,pro,setpro}) => {
     const {cart,setCart} = useContext(Kart);
     const[num,setnum] = useState(0)
     
-    let price = prod.price.split(',').join('');
-    console.log(price)
+    let price = Number(prod.price.split(',').join(''));
+    // console.log(price)
     function incre(){
-        console.log(num)
-        setpro(pro+1*(price))
+        setpro(pro+(price))
         setnum(num+1)
     }
     function decre(){
-        console.log(num)
         setnum(num!==0?num-1:0)
         setpro(num!==0?pro-1*(price):0)
        
@@ -39,12 +37,7 @@ const Cartproducts = ({prod,pro,setpro}) => {
                        <button className='removeCartcart' onClick={()=>{
                           setCart(cart.filter((a)=>a.id!==prod.id))
                         }}>Remove from cart</button> 
-                ):(
-                  <button className='addCart' onClick={()=>{
-                      setCart([...cart,prod])
-                    }}>Add Cart</button>  
-                  
-                )}<br></br>
+                ):null}<br></br>
                 <button className='cartss' onClick={incre}>+</button>
                     <span>{num}</span>
                 <button className='cartss' onClick={decre}>-</button>

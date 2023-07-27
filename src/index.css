@@ -126,11 +126,14 @@ height: 200px;
 }
 .removeAll{
   color: white;
-  background-color: black;
-  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.749);
+  padding: 7px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
 }
 .removeAll:hover{
-  border-radius: 10px;
+  border-radius: 0px;
+  transition: .5s;
 }
 .cartnav{
   display: flex;
@@ -142,6 +145,16 @@ height: 200px;
   position: sticky;
   top: 74px;
   margin-bottom: 30px;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+}
+.j{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 @media only screen and (max-width: 818px) {
 
@@ -174,5 +187,43 @@ height: 200px;
   .phonec{
     height: 170px;
   }
+  .logo{
+      width: 40px;
+      height: 40px;
+     
+     
+  }
+  .j{
+      font-size: 19px;
+  }
   
+}
+@media only screen and (max-width:500px){
+
+  .cartCard{
+    background-color: rgb(239, 235, 235);
+    margin-bottom: 20px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 10%;
+    height: auto;
+    
+  
+  }  
+  .phonec{
+    height: 100px;
+    width: 80px;
+  }
+  .logo{
+    width: 35px;
+    height: 35px;
+   
+   
+}
+.j{
+    font-size: 17px;
+}
+
 }

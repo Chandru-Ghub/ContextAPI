@@ -8,19 +8,9 @@ import Footer from './Footer'
 const Home = () => {
 
  
-  // const product = [...Array(20)].map(()=>({
-  //   id: faker.datatype.uuid(),
-  //   name: faker.commerce.productName(),
-  //   price: faker.commerce.price(),
-  //   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg7DjsMnMZK7Kz2K2rv5hd6pZuRGTY7HSZZEOELjlT&s',
-   
-  // }))
-// useEffect(()=>{
-//   fetch("http://localhost:8000/products").then((a)=>a.json).then((res)=>console.log(res))
-// },[])
 
   useEffect(()=>{
-        fetch(`/mocks.json`).then((a)=>a.json()).then((result)=>setList(result.products));
+        fetch('/mocks.json').then((a)=>a.json()).then((result)=>setList(result.products));
   },[])
   const[list,setList] = useState([])
 
@@ -35,10 +25,11 @@ const Home = () => {
         
     <div className='container'>
         {
-          list.map((prod)=>(
+          list.map((prod,i)=>(
 
             <Singleproduct
                 prod = {prod}
+                key={i}
                 // cart = {cart}
                 // setCart = {setCart}
             />

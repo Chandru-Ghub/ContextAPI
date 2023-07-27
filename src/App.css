@@ -13,6 +13,7 @@
   padding: 10px;
   position: sticky;
   top: 0;
+  height: 74px;
   >ul{
     display: flex;
     list-style: none;
@@ -21,12 +22,7 @@
  
   
 }
-.j{
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-}
+
 .j:hover{
   text-decoration: underline;
   color: lightblue;
@@ -69,10 +65,7 @@ img{
   font-weight: 700;
   color: tomato;
 } */
-.logo{
-  height: 50px;
-  width: 50px;
-}
+
 .phone{
   height: 100%;
   width:100px;
@@ -199,5 +192,12 @@ img{
     margin: auto;
     width: 300px;
     height: 300px;
+  }
+}
+@media only screen and (max-width:650px){
+  .cartnav{
+    flex-direction: column;
+    row-gap: 30px;
+   
   }
 }
